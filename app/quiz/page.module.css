@@ -11,10 +11,15 @@
 }
 .title {
   text-align: center;
+  font-size: 28px;
+}
+.title span:nth-child(1) {
+  color: #53c28b;
 }
 .items {
   text-align: center;
 }
+
 .item {
   border-radius: 5px;
   border: 1px solid #555;
@@ -41,7 +46,19 @@
   text-align: center;
   cursor: pointer;
   width: 100%;
+  margin-top: 10px;
 }
 .btn:hover {
   background-color: rgb(20, 197, 109);
+}
+
+@media screen and (max-width: 900px) {
+  .title {
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .title {
+    font-size: 20px;
+  }
 }

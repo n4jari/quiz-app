@@ -2,6 +2,7 @@ import { ThemeProvider } from '@/context/ThemeContext'
 import './globals.css'
 import { Kanit } from 'next/font/google'
 import Navbar from '@/components/navbar/Navbar'
+import 'react-loading-skeleton/dist/skeleton.css'
 
 const myFont = Kanit({
   subsets: ['latin'],

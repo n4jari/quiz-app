@@ -23,3 +23,11 @@
 .btn:hover {
   background-color: rgb(20, 197, 109);
 }
+.social {
+  font-size: 14px;
+}
+.social a {
+  text-decoration: none;
+  color: #53c28b;
+  margin-left: 3px;
+}

@@ -15,6 +15,9 @@ export default function Home() {
         </ul>
         <Link href="/quiz" className={styles.btn}>START</Link>
       </div>
+      <div className={styles.social}>
+        <p>Created by<Link href={"https://github.com/n4jari"} target='_blank'>N4JARI</Link></p>
+      </div>
     </main>
   )
 }
