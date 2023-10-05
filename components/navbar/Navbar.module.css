@@ -1,0 +1,12 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title {
+  text-decoration: none;
+  color: #53c28b;
+  font-weight: bold;
+  font-size: 20px;
+}

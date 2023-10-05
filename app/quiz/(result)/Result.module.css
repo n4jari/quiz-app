@@ -1,15 +1,10 @@
-.main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.content {
+.container {
+  text-align: center;
   border: 2px solid #53c28b;
   padding: 20px;
   border-radius: 5px;
+  font-size: 20px;
 }
-
 .btn {
   text-decoration: none;
   padding: 7px 25px;
@@ -21,5 +16,5 @@
   display: block;
 }
 .btn:hover {
-  background-color: rgb(20, 197, 109);
-}
+    background-color: rgb(20, 197, 109);
+  }
