@@ -7,25 +7,29 @@
 .content {
   border: 2px solid #53c28b;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
+  background-color: #53c28b24;
 }
 
 .btn {
   text-decoration: none;
   padding: 7px 25px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #53c28b;
   color: #fff;
   font-size: 14px;
   text-align: center;
   display: block;
 }
+
 .btn:hover {
   background-color: rgb(20, 197, 109);
 }
+
 .social {
   font-size: 14px;
 }
+
 .social a {
   text-decoration: none;
   color: #53c28b;

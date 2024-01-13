@@ -1,14 +1,15 @@
 .container {
   text-align: center;
   border: 2px solid #53c28b;
+  background-color: #53c28b24;
   padding: 20px;
-  border-radius: 5px;
+  border-radius: 20px;
   font-size: 20px;
 }
 .btn {
   text-decoration: none;
   padding: 7px 25px;
-  border-radius: 5px;
+  border-radius: 20px;
   background-color: #53c28b;
   color: #fff;
   font-size: 14px;
@@ -16,5 +17,5 @@
   display: block;
 }
 .btn:hover {
-    background-color: rgb(20, 197, 109);
-  }
+  background-color: rgb(20, 197, 109);
+}
