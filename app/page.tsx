@@ -21,7 +21,7 @@ export default function Home() {
       <footer className={styles.social}>
         <p>
           Created by
-          <Link href={"https://github.com/n4jari"} target="_blank">
+          <Link href={"https://najari.ir"} target="_blank">
             N4JARI
           </Link>
         </p>
